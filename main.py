@@ -26,10 +26,10 @@ app.add_middleware(
 )
 
 db = mysql.connector.connect(
-    host = "localhost",
-    user = "root",
-    password = "",
-    database ="saunaapi"
+    host = "bflgb9bgfvjbefen95gh-mysql.services.clever-cloud.com",
+    user = "uvt4sjvtstgl9ily",
+    password = "796l6BwzmXJaiX7sUjjt",
+    database ="bflgb9bgfvjbefen95gh"
 )
 
 cursor = db.cursor(buffered=True)
